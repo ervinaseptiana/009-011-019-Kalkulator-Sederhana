@@ -31,8 +31,30 @@ int main(){
 	operasi='+';
 	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
 	break;
-case 2 : hasil=bil1-bil2; 
+case 2 : hasil=bil1-bil2;
 	operasi='-';
+	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	break;
+case 3 : hasil=bil1*bil2;
+	operasi='*';
+	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	break;
+case 4 : hasil=bil1/bil2;
+	operasi='/';
+	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	break;
+
+case 5:
+	cout<<"Keluar dari program...";
+	loop = false;
+	break;
+		default :
+	cout<<"Salah Masukan Operator"<<endl;
+	}
+
+}
+return 0;
+}
 	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
 	break;
 case 3 : hasil=bil1*bil2;
