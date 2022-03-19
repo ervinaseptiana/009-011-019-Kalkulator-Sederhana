@@ -18,3 +18,21 @@ int main(){
 	cout<<"3. Perkalian"<<endl;
 	cout<<"4. Pembagian"<<endl;
 	cout<<"5. Keluar\n"<<endl;
+	
+	cout<<"Masukan Pilihan : ";
+	cin>>pil;
+	if(pil != 5){
+	cout<<"Masukan Bilangan pertama : ";
+	cin>>bil1;
+	cout<<"Masukan Bilangan kedua : ";
+	cin>>bil2;
+		}
+	switch(pil){
+ case 1 : hasil=bil1+bil2;
+	operasi='+';
+	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	break;
+case 2 : hasil=bil1-bil2;
+	operasi='-';
+	cout<<"\nHasil "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	break;
